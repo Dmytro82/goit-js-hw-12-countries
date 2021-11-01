@@ -1,0 +1,14 @@
+<div>
+    <h1>{{nativeName}} ({{name}})</h1>
+    <p>Столица: {{capital}}</p>
+    <p>Население: {{population}}</p>
+    <p>Язык: </p>
+    <ul> {{#each languages}}
+        <li>
+            {{nativeName}} ({{name}})
+        </li>
+        {{/each}}
+    </ul>
+    <p>>Площадь: {{area}}км</p>
+    <img src="{{flags.png}}" alt="{{name}} widht=" 300" height="150">
+</div>
